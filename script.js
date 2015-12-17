@@ -6,14 +6,14 @@ var myHouse = {
 	bedrooms: 4
 }
 
-console.log(myHouse.style);
+console.log("My house is a " + myHouse.style + " and has " + myHouse.bedrooms + " bedrooms.");
 
 
 function MyCar(make, color) {
   
   this.make = make;
   this.color = color;
-  this.isActive = true;
+  
   
 }
 
@@ -25,5 +25,5 @@ var myCar1 = new MyCar(' Acura', 'black');
 myCar1.carType();
 
 
-var myCar2 = new MyCar(' BMW', 'White');
+var myCar2 = new MyCar(' Toyota', 'White');
 myCar2.carType();
